@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Live the music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="SongList">
+            <h1>Best of Bollywood- No Copyright Sounds</h1>
+            <div class="SongItemContainer">
+                <div class="SongItem">
+                    <img src="rasiyaimg.jpg" alt="1">
+                    <span>Rasiya</span>
+                    <span class="songlist"><span class="timestamp" >04:26<i id="0" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="2.jpg" alt="1">
+                    <span>Tum Mile</span>
+                    <span class="songlist"><span class="timestamp" >05:43<i id="1" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="3.jpg" alt="1">
+                    <span>Chori Kiya</span>
+                    <span class="songlist"><span class="timestamp" >04:46<i id="2" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="4.jpg" alt="1">
+                    <span>Saibo</span>
+                    <span class="songlist"><span class="timestamp" >03:15<i id="3" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="5.jpg" alt="1">
+                    <span>Aayat</span>
+                    <span class="songlist"><span class="timestamp" >05:11<i id="4" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="6.jpg" alt="1">
+                    <span>Laal Ishq</span>
+                    <span class="songlist"><span class="timestamp" >06:27<i id="5" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="7.jpg" alt="1">
+                    <span>Darmiyaan</span>
+                    <span class="songlist"><span class="timestamp" >05:23<i id="6" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="8.jpg" alt="1">
+                    <span>Channa Mereya</span>
+                    <span class="songlist"><span class="timestamp" >04:28<i id="7" class="fa-sharp fa-solid SongInfoPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+           <!--fontawesome icons-->
+           <i class="fa-sharp fa-solid fa-3x fa-backward" id="previous"></i>
+           <i class="fa-sharp fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+           <i class="fa-sharp fa-solid fa-3x fa-forward" id="next"></i>
+                
+        </div>
+            <div class="SongInfo">
+                 <img src="music.gif" width="50px" alt="Playing" id="gif"> <span id="masterSongName">Rasiya</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7507519904.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

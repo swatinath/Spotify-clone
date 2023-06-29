@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    background-color: azure;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'Playfair Display', serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    margin: 23px auto;
+    width: 68%;
+    border-radius: 10px;
+    padding: 32px;
+    background-image: url('bg1.jpg');
+
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 0;
+
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 120vh;
+    cursor: pointer;
+}
+
+.SongItem{
+    height: 50px;
+    
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 26px;
+
+}
+
+.SongItem img{
+    width: 44px;
+    height: 70 px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin: 0 23px;
+    
+}
+.timestamp i{
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+.SongInfo{
+    position: absolute;
+    left: 21vw;
+
+}
+.SongInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 600px) {
+    .icons{
+        margin-top: 10px;
+        margin-left: 20px;
+      
+    }
+    #myProgressBar{
+        width: 80vh;
+        cursor: pointer;
+        
+    }
+    .SongInfo{
+        position: absolute;
+        left: 5vw;
+    }
+  }
